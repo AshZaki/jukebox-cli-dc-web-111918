@@ -30,6 +30,12 @@ def play(songs)
   end
 end
 
+def list(songlist)
+  songlist.each_with_index(1) do |name, i|
+    puts "#{i}. #{name}"
+  end
+end
+
 def help
   puts  "I accept the following commands:"
   puts  "- help : displays this help message"
