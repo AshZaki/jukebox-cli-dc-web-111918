@@ -44,6 +44,7 @@ end
 def run(songlist)
   help()
   while true
+  puts "Please enter a command:"
     choice = gets.chomp
     if choice == 'exit'
       exit_jukebox()
