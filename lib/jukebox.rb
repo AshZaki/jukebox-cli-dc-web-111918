@@ -46,6 +46,7 @@ def run(songlist)
   while true
     choice = gets.chomp
     if choice == 'exit'
+      exit_jukebox()
       break
     elsif choice == 'list'
       list(songlist)
