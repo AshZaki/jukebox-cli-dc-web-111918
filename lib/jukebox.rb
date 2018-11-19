@@ -51,6 +51,8 @@ def run(songlist)
     choice = gets.chomp
     if choice == 'exit'
       break
+    elsif choice == 'list'
+      list(songlist)
     else
       help()
     end
