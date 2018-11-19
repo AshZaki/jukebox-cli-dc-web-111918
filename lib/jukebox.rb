@@ -53,5 +53,6 @@ def run(songlist)
       break
     else
       help()
+    end
   end
 end
