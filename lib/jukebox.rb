@@ -50,7 +50,7 @@ def run(songlist)
       break
     elsif choice == 'list'
       list(songlist)
-    elsif entered_command == 'play'
+    elsif choice == 'play'
       list(songs)
       play(songs)
     else
