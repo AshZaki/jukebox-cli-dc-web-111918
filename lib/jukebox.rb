@@ -48,7 +48,10 @@ end
 def run(songlist)
   help()
   while true
-    
-    
+    choice = gets.chomp
+    if choice == 'exit'
+      break
+    else
+      help()
   end
 end
