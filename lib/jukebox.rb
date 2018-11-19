@@ -49,6 +49,9 @@ def run(songlist)
       break
     elsif choice == 'list'
       list(songlist)
+    elsif entered_command == 'play'
+      list(songs)
+      play(songs)
     else
       help()
     end
